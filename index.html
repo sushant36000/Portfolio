@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/52e0e3c9d6.js" crossorigin="anonymous"></script>
+    
+</head> 
+<body>
+    <header>
+        <!-- navbar  -->
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#">Portfolio.</a></div>
+                <ul class="menu">
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#gallery" class="menu-btn">Gallery</a></li>
+                    <li><a href="#contact" class="menu-btn">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+            <!-- homepage -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">Hello, my name is</div>
+                <div class="text2">Sushant Khadgi</div>
+                <div class="text3"> <span class="typing">Lighting Artist</span></div>
+            </div>
+        </div>
+    </section>
+
+            <!-- About -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profile.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">
+                        I'm Sushant and i am a <span class="typing-2">Lighting Artist</span>
+                    </div>
+                    <p>
+                        I am very fond of cartoons since my childhood. I grew up watching cartoons and still watching all sorts of animation. I still remember the day, when Tom and Jerry was airing and in the end they showed how Tom and Jerry was made. I was really amazed at that time. I really got excited watching all the behind scenes of animation.  At that time i found my goal. And i said to myself, I will work on animation. After completeing my school level i joined an Animation Academy.
+                    </p>
+                    <a href="biodata.pdf">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Gallery  -->
+    <section class="gallery" id="gallery">
+        <div class="max-width">
+            <h2 class="title">Gallery</h2>
+            <div class="container">
+                <div class="index-gallery">
+                    <div class="gallery-image img1">
+                        <div><a>6Pointharness</a></div>
+                    </div>
+                    <div class="gallery-image img2">
+                        <div><a href="#">6Pointharness</a></div>
+                    </div>
+                    <div class="gallery-image img3">
+                        <div><a href="#">6Pointharness</a></div>
+                    </div>
+                    <div class="gallery-image img4">
+                        <div><a href="#">6Pointharness</a></div>
+                    </div>
+                    <div class="gallery-image img5">
+                        <div><a href="#">6Pointharness</a></div>
+                    </div>
+                    <div class="gallery-image img6">
+                        <div><a href="#">Gustav Kitchen</a></div>
+                    </div>
+                    <div class="gallery-image img7">
+                        <div><a href="#">across</a></div>
+                    </div>
+                    <div class="gallery-image img8">
+                        <div><a href="#">Lonely</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- contact me  -->
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>sGet in touch with me with given mail address. Thank you</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Sushant Khadgi</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Kathmandu,Nepal</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">sushantkhadgi36000@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://formspree.io/f/mknyokag" method="POST" id="my-form">
+                        <div class="fields">
+                            <div class="field name">
+                                <!-- <label for="name">Name</label> -->
+                                <input type="text" placeholder="Name" required id="name" name="Name">
+                            </div>
+                            <div class="field email">
+                                <!-- <label for="email">Email</label> -->
+                                <input type="email" placeholder="Email" required id="email" name="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <!-- <label for="subject">Subject</label> -->
+                            <input type="text" placeholder="Subject" required id="subject" name="subject">
+                        </div>
+                        <div class="field textarea">
+                            <!-- <label for="message">Message</label> -->
+                            <textarea cols="30" rows="10" placeholder="Message.." required id="message" name="message"></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                    <div id="status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script src="scripts.js"></script>
+    <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+</body>
+</html>
