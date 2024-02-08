@@ -411,15 +411,19 @@ html{
 
 .showreel .reel{
     padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 81%;
 }
 
 
 .contact{
     background: #001219;
     color: #fff;
+}
+
+iframe{
+    display: block;
+    margin: 1em auto;
+    width: 80%;
+    height: calc(.5625 * 80vw);
 }
 
 .contact .title{
