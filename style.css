@@ -410,10 +410,6 @@ html{
 }
 
 .showreel .reel{
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between; */
     padding: 50px;
     margin-left: auto;
     margin-right: auto;
