@@ -382,8 +382,44 @@ html{
     opacity: 0.8;
 }
 
+/* showreel stylizing  */
 
-/* contact me styleing  */
+.showreel{
+    padding: 100px 0;
+    color: #fff;
+    background: #001219;
+}
+
+.showreel .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.showreel .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.showreel .reel{
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; */
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 81%;
+}
+
 
 .contact{
     background: #001219;
